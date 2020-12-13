@@ -1,0 +1,4 @@
+AuthName "Belepes"
+AuthUserFile "/home/priman01/.htpasswds/public_html/_testing/passwd"
+AuthType Basic
+require valid-user
