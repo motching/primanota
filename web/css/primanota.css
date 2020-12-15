@@ -3,20 +3,45 @@ Color scheme
 background: #f3e1dd
 foreground/text: #35374c
 elements: #b0413e
-contrast: #4381c1
+content-background: #eafbf0
 */
 
+/* ----------- MAIN ------------- */
 body {
     background-color: #f3e1dd;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
 }
 
-#content {
-    margin: 0 auto;
-    width: 70%;
-    padding-top: 20px;
+#contact-header {
+    width: 95%;
+    padding: 5px 0;
+    margin: 20px auto 0 auto;
 }
 
+#contact-header {
+    border: #b0413e33 solid 1px;
+}
+
+#contact-header > span {
+    padding: 0 20px;
+}
+
+a {
+    color: #b0413e;
+    text-decoration: none;
+}
+
+footer, #contact-header {
+    background-color: #eafbf0;
+    color: #35374c;
+}
+
+footer {
+    text-align: center;
+
+}
+
+/* ----------- HERO IMAGE ------------- */
 #hero-image {
     height: 25em;
     background-image: url(../img/hero.jpg);
@@ -24,6 +49,7 @@ body {
     background-position: center center;
     margin: 0 auto;
     width: 95%;
+    border: #b0413e33 solid 1px;
 }
 
 #text-container {
@@ -63,9 +89,15 @@ body {
     background-color: #b0413edd;
 }
 
+/* ----------- CONTENT ------------- */
+#content {
+    margin: 20px auto;
+    width: 70%;
+    background-color: #eafbf0;
+    border: #b0413e33 solid 1px;
+}
+
 .section {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
     margin-bottom: 20px;
     padding: 30px 30px;
     overflow: auto;
@@ -76,15 +108,22 @@ body {
     padding: 20px 10px;
 }
 
-.section-image {
-    float: left;
-    margin-right: 25px;
-    border: #35374c solid 1px;
+.services-container {
+    display: flex;
+}
+
+#services-list-container {
+    padding-left: 40px;
+}
+
+#services-image {
+    border: #f3e1dd solid 1px;
 }
 
 #profile-image {
     float: right;
     margin-left: 40px;
+    border: #f3e1dd solid 1px;
 }
 
 hr {
@@ -107,29 +146,4 @@ p, ul {
     line-height: 1.6;
     margin: 0 0 10px 0;
     text-align: justify;
-}
-
-#contact-header {
-    width: 95%;
-    padding: 5px 0;
-    margin: 20px auto 0 auto;
-}
-
-#contact-header > span {
-    padding: 0 20px;
-}
-
-a {
-    color: #b0413e;
-    text-decoration: none;
-}
-
-footer, #contact-header {
-    background: #fff;
-    color: #35374c;
-}
-
-footer {
-    text-align: center;
-
 }
