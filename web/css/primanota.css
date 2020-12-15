@@ -147,3 +147,67 @@ p, ul {
     margin: 0 0 10px 0;
     text-align: justify;
 }
+
+/* ----------- MOBILE ------------- */
+@media (max-width: 575px) {
+    #hero-image {
+        width: 99%;
+        height: 20em;
+    }
+
+    #title-container {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+
+    #subtitle {
+        font-size: 1em;
+    }
+
+    #contact-header {
+        width: 99%;
+        text-align: center;
+    }
+
+    #content {
+        width: 95%;
+        font-size: 0.8em;
+    }
+
+    .section {
+        padding: 0;
+    }
+
+    hr {
+        border-color: #35374c;
+        max-width: 80%;
+        margin: 15px auto;
+    }
+
+    p, ul {
+        line-height: 1;
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    #profile-image, #services-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .services-container {
+        display: block;
+    }
+
+    #services-list-container {
+        padding: 0;
+    }
+}
