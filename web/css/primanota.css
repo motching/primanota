@@ -1,0 +1,135 @@
+/*
+Color scheme
+background: #f3e1dd
+foreground/text: #35374c
+elements: #b0413e
+contrast: #4381c1
+*/
+
+body {
+    background-color: #f3e1dd;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#content {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20px;
+}
+
+#hero-image {
+    height: 25em;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#text-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#title-container {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#title {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 5em;
+    text-align: center;
+    color: #b0413e;
+    text-shadow: 1px 1px 2px #35374c;
+    background-color: #fffd;
+}
+
+#subtitle {
+    width: 85%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 2px #35374c;
+    background-color: #b0413edd;
+}
+
+.section {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    margin-bottom: 20px;
+    padding: 30px 30px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.section-text-container {
+    padding: 20px 10px;
+}
+
+.section-image {
+    float: left;
+    margin-right: 25px;
+    border: #35374c solid 1px;
+}
+
+#profile-image {
+    float: right;
+    margin-left: 40px;
+}
+
+hr {
+    border-color: #35374c;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+    text-align: justify;
+}
+
+#contact-header {
+    width: 95%;
+    padding: 5px 0;
+    margin: 20px auto 0 auto;
+}
+
+#contact-header > span {
+    padding: 0 20px;
+}
+
+a {
+    color: #b0413e;
+    text-decoration: none;
+}
+
+footer, #contact-header {
+    background: #fff;
+    color: #35374c;
+}
+
+footer {
+    text-align: center;
+
+}
