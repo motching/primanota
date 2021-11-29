@@ -180,7 +180,7 @@ p, ul {
     }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 1200px) {
     #hero-image {
         width: 99%;
         height: 20em;
