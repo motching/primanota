@@ -89,6 +89,28 @@ footer {
     background-color: #b0413edd;
 }
 
+#flags-container {
+    float: right;
+}
+
+.flag-image {
+    float: right;
+    margin: 5px;
+    height: 10%;
+    width: 18%;
+    opacity: 0.55;
+    border: #b0413e33 solid 1px;
+}
+
+.flag-image[active] {
+    opacity: 0.95;
+}
+
+.flag-image:hover {
+    opacity: 1;
+    border: #f3e1dd solid 1px;
+}
+
 /* ----------- CONTENT ------------- */
 #content {
     margin: 20px auto;
